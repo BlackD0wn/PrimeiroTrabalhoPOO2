@@ -2,7 +2,7 @@ package entidades;
 
 public class Gerente extends Funcionario {
 	
-	
+	//falta atributo
 	
 	public Gerente(String nome, String dataAdmissao, float salario) {
 		super(nome, dataAdmissao, salario);
@@ -13,4 +13,7 @@ public class Gerente extends Funcionario {
 		return (float) (this.getSalario() * 0.1);
 	}
 
+	
+	
+	
 }
