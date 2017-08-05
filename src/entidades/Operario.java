@@ -22,6 +22,4 @@ public class Operario extends Funcionario {
 		this.tipo = tipo;
 	}
 	
-	
-
 }
