@@ -14,4 +14,8 @@ public class Diretor extends Funcionario {
 		return (float) (this.getSalario() * 0.10);
 	}
 
+	public String getSetorGerencia(){
+		return this.setorGerencia;
+	}
+	
 }
